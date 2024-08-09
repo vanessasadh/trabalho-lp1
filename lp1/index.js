@@ -1,11 +1,7 @@
 //email temporario mongodbatlas wocerih166@leacore.com
-import express from 'express';
-const app = express();
-import mongoose from 'mongoose';
-
 const express = require('express');
 const api = express();
-const URL_BD = 'mongodb+srv://aderbal:senha@cluster0.yr0dzyz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const URL_BD = 'mongodb+srv://vanessa:180820@cluster0.lbbwjrw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const portaApi = 3000;
 const mongoose = require('mongoose');
 
