@@ -1,4 +1,4 @@
-//email temporario mongodbatlas wocerih166@leacore.com
+
 const express = require('express');
 const api = express();
 const URL_BD = 'mongodb+srv://vanessa:vanessa123@cluster0.lbbwjrw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'

@@ -1,9 +1,8 @@
-import express from 'express'
-const Celular = require('../index.js');
 
+const Celular = require('../model/celular.js');
 exports.listarCelular = async (req, res) => {
     try{
-        const celular = await celular.find({});
+        const celular = await Celular.find({});
         res.send(celular);
     } catch(erro) {
         console.log(erro);
