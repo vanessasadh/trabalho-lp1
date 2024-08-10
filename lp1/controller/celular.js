@@ -47,7 +47,7 @@ exports.removerCelular = async (req, res) => {
     if(!celular.nome)
        return res.send({ msg: '[ERRO]: Informar nome!' });
     try {
-        const celularRemovido = await celular.findOneAndDelete({ nome: celular.nome });
+        const celularRemovido = await Celular.findOneAndDelete({ nome: celular.nome });
         if(celularRemovido == null)
             res.send({ msg: '[AVISO]: Celular não existe no BD!' });
         else
